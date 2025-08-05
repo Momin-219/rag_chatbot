@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # 🔑 Replace with your actual Gemini API key
-GOOGLE_API_KEY = "AIzaSyA2LcsAf0pks-KWnhKzkfAeep5-bwm2AZY"
+GOOGLE_API_KEY = ""
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Load and split PDF
